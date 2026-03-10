@@ -88,3 +88,30 @@ footer{
     margin: 0;
     padding: 0;
 }
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    gap: 10px;
+}
+
+.grid-item img {
+    width: 100%;
+    display: block;
+}
+
+.caption {
+    margin: 5px 0 0 0;
+    font-size: 15px;
+    text-align: center; /* optional: center caption under image */
+}
+
+hr {
+    border: none;              /* remove default border style if any */
+    border-top: 1px solid #000000;  /* set color & thickness */
+    margin: 5px 0;
+}
+
+.extra-space {
+    margin-bottom: 7px; /* space below each list item */
+}
