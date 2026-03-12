@@ -1,5 +1,12 @@
 body {
     background-color: #debe9c;
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+.page-container {
     display: flex;
     flex-direction: column; /* stack children vertically */
     width: min(80%, 38rem);
@@ -114,4 +121,35 @@ hr {
 
 .extra-space {
     margin-bottom: 7px; /* space below each list item */
+}
+
+#vines1 {
+    position: absolute;       /* position relative to body */
+    top: 250px;            /* moves image 20px below the page content */
+    right: -10px;             /* moves image 20px past the right edge */
+    width: 300px;             /* adjust size */
+    z-index: -1;              /* behind all content */
+}
+
+#vines2 {
+    position: absolute;       /* position relative to body */
+    top: 0px;
+    left: 0px;             /* moves image 20px past the right edge */
+    width: 330px;             /* adjust size */
+    z-index: -1;              /* behind all content */
+}
+
+#vines3 {
+    position: absolute;       /* position relative to body */
+    bottom: -40px;
+    right: 0px;             /* moves image 20px past the right edge */
+    width: 550px;             /* adjust size */
+    z-index: -1;              /* behind all content */
+}
+
+@media (max-width: 768px) {
+  #vines1,
+  #vines2 {
+    display: none;
+  }
 }
