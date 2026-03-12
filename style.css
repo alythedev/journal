@@ -147,7 +147,7 @@ hr {
 
 #vines3 {
     position: absolute;       /* position relative to body */
-    bottom: 220px;
+    bottom: 180px;
     right: 0px;             /* moves image 20px past the right edge */
     width: 550px;             /* adjust size */
     z-index: -1;              /* behind all content */
