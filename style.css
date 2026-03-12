@@ -158,4 +158,8 @@ hr {
   #vines2 {
     display: none;
   }
+  #vines3 {
+    bottom:-250px;
+    right: -120px
+  }
 }
