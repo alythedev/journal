@@ -8,12 +8,11 @@ body {
 
 .page-container {
     display: flex;
-    flex-direction: column; /* stack children vertically */
+    flex-direction: column;
     width: min(80%, 38rem);
     font-family: 'Averia Serif Libre', serif;
     font-style: normal;
-    /* border: 3px solid green; */
-    margin: 0 auto; /* center body if width < 100% */
+    margin: 0 auto;
 }
 
 
@@ -160,6 +159,5 @@ hr {
   }
   #vines3 {
     bottom:-250px;
-    right: -120px
   }
 }
