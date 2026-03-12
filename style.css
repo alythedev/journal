@@ -56,10 +56,16 @@ h3{
     font-weight: normal;
     font-size: 21px;
     font-weight:bold;
-    color: #ce4c0c;
 
 }
 
+.orange{
+    color: #ce4c0c;
+}
+
+.green{
+    color:green;
+}
 
 .link {
     color: #7c2407;
@@ -141,7 +147,7 @@ hr {
 
 #vines3 {
     position: absolute;       /* position relative to body */
-    bottom: -40px;
+    bottom: 220px;
     right: 0px;             /* moves image 20px past the right edge */
     width: 550px;             /* adjust size */
     z-index: -1;              /* behind all content */
